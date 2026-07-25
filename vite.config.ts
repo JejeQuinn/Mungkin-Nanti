@@ -1,7 +1,13 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import {defineConfig} from 'vite';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react' // atau plugin lain yang kamu pakai
+
+export default defineConfig({
+  plugins: [react()],
+  base: '/Mungkin-Nanti/', // <-- Tambahkan baris ini!
+})
 
 export default defineConfig(() => {
   return {
