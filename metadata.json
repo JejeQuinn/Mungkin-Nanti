@@ -1,0 +1,6 @@
+{
+  "name": "Smart IoT Fish Feeder Simulator",
+  "description": "Aplikasi Pakan Ikan IoT terintegrasi NodeMCU ESP32. Menyediakan dasbor home interaktif, pemicu pakan manual instan, penjadwal pakan harian otomatis, indikator sisa pakan tabung botol dengan alarm kritis, riwayat statistik, dan panel admin sirkuit fisik.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
